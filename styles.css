@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;            /* Arrange items in a row */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      
+    flex-wrap: wrap;          /* Allow items to move to the next row */
+    gap: 0;
+	padding: 20px;
+}
+.item-1{
+	border: 2px solid;
+	background-color: green;
+	height: 150px;
+	width: 140px;
+}
+.item-2,.item-9{
+	border: 2px solid;
+	background-color: red;
+	height: 150px;
+	width: 140px;
+}
+.item-3,.item-10{
+	border: 2px solid;
+	background-color: blue;
+	height: 150px;
+	width: 140px;
+}
+.item-4,.item-5,.item-6,.item-7,.item-8{
+	border: 2px solid;
+	background-color: green;
+	height: 150px;
+	width: 140px;
+}
+
